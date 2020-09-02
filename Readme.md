@@ -10,7 +10,12 @@ fork from [gogallery](https://github.com/robrotheram/gogallery)
 ## undoced dependency
 1. imagemagick on linux
 
-## my 
+## my using case
+1. backup gallery from my iphone to raspberry pi use a [ios rsync app](https://www.acrosync.com/ios.html)
+2. browsering gallery using this proj
+
+## features wanted 
+1. video browser
 
 
 # GoGallery original README
