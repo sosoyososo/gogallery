@@ -1,0 +1,33 @@
+database:
+  baseurl: "/tmp/gallery/"
+
+server:
+  port: ":8800"
+
+gallery:
+  name: "Gallery"
+  imagesPerPage: 50
+  basepath: "/root/karsa/iPhone"
+  url:      "http://10.0.0.2:8080"
+  theme:    "default"
+  QueThreshold: 50 
+  Renderer: "imagemagick"
+
+about:
+  enable: false
+  photographer: "Joe Blogs"
+  backgroundPhoto: "/img/galleryimagename"
+  profilePhoto: "url to profile e.g gravatar"
+  twitter: "@twitter"
+  facebook: "facebook_username"
+  instagram: "instagram_username"
+  email: "me@example.com"
+  blog: "https://blog.example.com"
+  website: "https://example.com"
+  description: "Hello there, here is my gallery containing a number of photos from a number of years"
+  footer: "Photos ©photographer"
+
+admin:
+  enable: true
+  username: admin
+  password: galleryAdmin
